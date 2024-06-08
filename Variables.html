@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h3>Javascript variables</h3>
+        <p id="demo"></p>
+        
+       <script>
+            //using let 
+            let x = 10;
+            let y = 30;
+            let z = x + y;
+            document.getElementById("demo").innerHTML = "value of z is:" + z;
+     
+            //    output value of z is: 40
+      
+            //using var 
+            var a = 20;
+            var b = 50;
+            var c = a * b;
+            document.getElementById("demo").innerHTML = "value of c is:" + c;
+            
+            //output  value of c is: 1000
+            
+
+            //using const
+            const m = 60;
+            const n = 50;
+            const o = m - n;
+            document.getElementById('demo').innerHTML= "value of z is :" + o;
+
+            //output value of o id:10
+        </script>
+
+        
+         <script>
+            <p>In this example, price1, price2, and total are variables.</p>
+        //using mixed values
+        const price1 = 5;
+        const price2 = 6;
+        let total = price1 + price2;
+        document.getElementById("demo").innerHTML =
+        "The total is: " + total;
+        </script>
+        </body>
+        </html>
